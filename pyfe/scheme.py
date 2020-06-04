@@ -49,7 +49,7 @@ class Scheme:
             pk: PublicKey, public key to be used for encryption
             vector: Vector, data to be encrypted
         """
-        
+
         assert (
             pk.n == vector.n + 1
         ), (

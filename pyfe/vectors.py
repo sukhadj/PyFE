@@ -26,7 +26,7 @@ class Vector:
 
 class EncryptedVector:
     """
-        Encrption of vector  
+        Encrption of vector
     """
     def __init__(self, group=None, simplifier=None, left=None, right=None):
         assert left
